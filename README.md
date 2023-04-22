@@ -7,6 +7,10 @@ Sea Σ = { a },
 L = { w#w | w ∈ Σ* }
 ```
 
+## El diagrama de Transiciones para una Máquina de Turing que Decide el Lenguaje
+
+![Máquina de Turing Iguales](assets/iguales.svg)
+
 ## Instrucciones
 
 Instalar:
