@@ -1,4 +1,11 @@
 import pytest
+import sys
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+module_dir = os.path.join(current_dir, "..")
+sys.path.append(module_dir)
+
 import iguales
 
 @pytest.mark.parametrize("w", [
